@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AD8310B825FBE66E00FC63B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8310B725FBE66E00FC63B9 /* main.cpp */; };
+		AD8310C525FCDC7F00FC63B9 /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8310C425FCDC7F00FC63B9 /* Array.cpp */; };
+		AD8310C825FCDCAB00FC63B9 /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8310C725FCDCAB00FC63B9 /* Random.cpp */; };
+		AD8310CB25FCDCC800FC63B9 /* Memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8310CA25FCDCC800FC63B9 /* Memory.cpp */; };
+		AD8310CE25FCDCF300FC63B9 /* Print.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8310CD25FCDCF300FC63B9 /* Print.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		AD8310B425FBE66E00FC63B9 /* DynamicMemory3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicMemory3; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8310B725FBE66E00FC63B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AD8310BF25FBE6C600FC63B9 /* Memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memory.h; sourceTree = "<group>"; };
+		AD8310C025FCDADC00FC63B9 /* Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
+		AD8310C125FCDB6800FC63B9 /* Print.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Print.h; sourceTree = "<group>"; };
+		AD8310C225FCDB8F00FC63B9 /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
+		AD8310C425FCDC7F00FC63B9 /* Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
+		AD8310C725FCDCAB00FC63B9 /* Random.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Random.cpp; sourceTree = "<group>"; };
+		AD8310CA25FCDCC800FC63B9 /* Memory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Memory.cpp; sourceTree = "<group>"; };
+		AD8310CD25FCDCF300FC63B9 /* Print.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Print.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				AD8310B725FBE66E00FC63B9 /* main.cpp */,
+				AD8310BF25FBE6C600FC63B9 /* Memory.h */,
+				AD8310C025FCDADC00FC63B9 /* Random.h */,
+				AD8310C125FCDB6800FC63B9 /* Print.h */,
+				AD8310C225FCDB8F00FC63B9 /* Array.h */,
+				AD8310C425FCDC7F00FC63B9 /* Array.cpp */,
+				AD8310C725FCDCAB00FC63B9 /* Random.cpp */,
+				AD8310CA25FCDCC800FC63B9 /* Memory.cpp */,
+				AD8310CD25FCDCF300FC63B9 /* Print.cpp */,
 			);
 			path = DynamicMemory3;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8310CB25FCDCC800FC63B9 /* Memory.cpp in Sources */,
+				AD8310C825FCDCAB00FC63B9 /* Random.cpp in Sources */,
+				AD8310CE25FCDCF300FC63B9 /* Print.cpp in Sources */,
 				AD8310B825FBE66E00FC63B9 /* main.cpp in Sources */,
+				AD8310C525FCDC7F00FC63B9 /* Array.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
